@@ -10,6 +10,13 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Page colors: blue background, pink text (comes after styles.css so it wins) -->
+        <style>
+            :root {
+                --bs-body-bg: blue;
+                --bs-body-color: pink;
+            }
+        </style>
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -37,9 +44,27 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                <h1>A Bootstrap 5 Starter Template</h1>
-                <p class="lead">A complete project boilerplate built with Bootstrap</p>
-                <p>Bootstrap v5.2.3</p>
+                <h1>Unveiling the model</h1>
+                <p class="lead">What is AI? Exploring a single neuron model</p>
+                <p>Uuuuh names here</p>
+            </div>
+
+            <!-- Single neuron model (text copied exactly from the LIT PROJECT STUFF doc) -->
+            <div class="col-lg-8 mx-auto mt-5 mb-5">
+                <h2>Our single neuron model has 3 parts:</h2>
+
+                <p><strong>Inputs:</strong> For our model, we set up a set amount of answers: in this case, ______. Each of these inputs have a set value that gets inputted through the weights to the bias. The value of the inputs do not change based on training data.</p>
+
+                <p><strong>Weights:</strong> The weights change the values that travel from the inputs to the bias. There is an independent weight from each input, which decides how much influence each input has on the final output.</p>
+
+                <!-- Empty in the doc so far: add the explanation after the colon -->
+                <p><strong>Bias:</strong> </p>
+
+                <!-- Empty in the doc so far -->
+                <p><strong>Output:</strong> </p>
+
+                <!-- Empty in the doc so far -->
+                <p><strong>Activation Function:</strong> </p>
             </div>
         </div>
         <!-- Bootstrap core JS-->
